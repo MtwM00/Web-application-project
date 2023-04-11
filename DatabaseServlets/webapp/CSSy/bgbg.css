@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+body {
+    background-image: url("chessbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+table, td, th {
+  border: 3px;
+  border-style: double;
+  border-color: white;
+  padding: 8px 0;
+ 
+}
+
+h5 {
+    font-size: 30px;
+}
+
+table {
+  width: 39%;
+  border-collapse: collapse;
+
+  font-size: 18px;
+  margin: 15px;
+  text-align: center;
+
+}
+
+
+.tabela {
+    position: absolute;
+    top: 33%;
+    left: 55%;
+    width: 400px;
+    height: 250px;
+}
+select { background:#808080;}
